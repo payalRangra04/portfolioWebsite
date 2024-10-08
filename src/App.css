@@ -73,6 +73,12 @@
   .hover {
     cursor: pointer;
   }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+  }
   
   @media (width >= 800px) {
     #root {
