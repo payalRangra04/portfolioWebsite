@@ -1,6 +1,13 @@
-import '/App.css';
-function App(){
-  console.log('test');
-  return <>HERO</>;
-}
+import React from 'react';
+import Hero from './section/Hero/Hero';
+import './App.css';
+
+const App = () => {
+  return (
+    <div className="App">
+      <Hero />
+    </div>
+  );
+};
+
 export default App;
