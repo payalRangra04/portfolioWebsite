@@ -12,7 +12,7 @@ function Projects() {
         <div className={styles.projectsContainer}>
           <ProjectCard
             src={api}
-            link="https://github.com/payalRangra04/420DW3_07278_Project"
+            link="https://github.com/Viraj5903/TaskOps-API"
             h3="Task API"
             p="Python API"
           />
